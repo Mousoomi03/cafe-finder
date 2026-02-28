@@ -49,7 +49,8 @@ This project uses the **Google Maps Places API**. You need to configure your API
 Open `src/App.js` and replace the placeholder with your actual API key:
 
 ```javascript
-const HARDCODED_KEY = "YOUR_ACTUAL_GOOGLE_API_KEY";
+const USE_MOCK_DATA = true;
+const GOOGLE_API_KEY = "YOUR_ACTUAL_GOOGLE_API_KEY";
 
 ```
 
