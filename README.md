@@ -3,7 +3,7 @@
 
 A **React-based web application** that helps users discover nearby cafes using a Tinder-like swipe interface. Users can swipe right to save their favorite spots and swipe left to pass.
 
-**Live Demo:** [Cafe Finder](https://cafe-finder-ivory.vercel.app/)
+**Live Demo:** [Cafe Finder](https://cafefinder.vercel.app/)
 
 ## ✨ Features
 
