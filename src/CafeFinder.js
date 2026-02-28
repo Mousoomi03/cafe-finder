@@ -213,10 +213,7 @@ const App = () => {
     try {
       const position = await getPos();
       const { latitude, longitude } = position.coords;
-      const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
-      const endpoint = `https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${latitude},${longitude}&radius=1500&type=cafe&key=${GOOGLE_API_KEY}`;
-      
-      const res = await fetch(proxyUrl + endpoint);
+      const res = await fetch(`/api/places?lat=${latitude}&lng=${longitude}`);
       const data = await res.json();
       
       if (data.results) {
