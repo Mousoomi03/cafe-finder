@@ -3,7 +3,7 @@ import { Coffee, Heart, RotateCcw, X, MapPin, Star, Clock, Navigation } from 'lu
 
 // --- CONFIGURATION ---
 const USE_MOCK_DATA = false;
-
+const GOOGLE_API_KEY = process.env.REACT_APP_GOOGLE_API_KEY;
 // --- MOCK DATA ---
 const MOCK_CAFES = [
   { id: 1, name: "The Daily Grind", rating: 4.8, open_now: true, photo: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=600&q=80" },
