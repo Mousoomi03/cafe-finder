@@ -290,6 +290,12 @@ const App = () => {
 
   const loadCafes = async () => {
     setLoading(true);
+    if (USE_MOCK_DATA) {
+      setCafes(MOCK_CAFES);
+      setLoading(false);
+      return;
+    }
+
     await fetchNearbyCafes();
     setLoading(false);
   };
