@@ -45,11 +45,18 @@ The application workflow involves:
 This project uses the **Google Maps Places API**. You need to configure your API key for both the frontend (images) and the backend (search results).
 
 ### 1. Local Development
+To use the mock data:
+```javascript
+const USE_MOCK_DATA = true;
+
+```
+
+or
+
 
 Open `src/App.js` and replace the placeholder with your actual API key:
 
 ```javascript
-const USE_MOCK_DATA = true;
 const GOOGLE_API_KEY = "YOUR_ACTUAL_GOOGLE_API_KEY";
 
 ```
