@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Coffee, Heart, RotateCcw, X, MapPin, Star, Clock, Navigation } from 'lucide-react';
 
 // --- CONFIGURATION ---
-const USE_MOCK_DATA = true;
+const USE_MOCK_DATA = false;
 const GOOGLE_API_KEY = process.env.REACT_APP_GOOGLE_API_KEY;
 // --- MOCK DATA ---
 const MOCK_CAFES = [
